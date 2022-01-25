@@ -1,0 +1,52 @@
+.texto{
+    position: absolute;
+    margin-top: -300px ;
+    margin-left: 350px;
+}
+
+.texto h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fondo{
+    position: absolute;
+    width: 1200px;
+    height: 575px;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+hr{
+    border: 2px solid #2FB286;
+}
+
+.image{
+    display: block;
+    position: absolute ;
+    margin-left: 680px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+.image2{
+    display: block;
+    margin-top: 50px;
+    width: 300px;
+    position: absolute ;
+    margin-left: 100px;
+    border: 2px solid black;
+    
+}
+.image2 p{
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    
+    
+}
+.h2{
+    margin-left: -200px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}

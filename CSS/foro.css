@@ -1,0 +1,29 @@
+
+
+body{
+    background-color: rgb(245, 240, 234) !important;
+}
+
+#regis-nom {
+    margin-top: 20px;
+    margin-left: 150px;
+    position: absolute;
+    background-color: #39c896;
+    width: 700px;
+    height: 200px;
+    box-shadow: 8px 8px 0px rgb(17, 161, 60);
+}
+
+#regis-nom h2{
+    font-size: 20px !important;
+    padding-top: 20px;
+    color: white;
+}
+
+.div-form{
+    margin-top: 150px;
+    margin-left: 80px;
+    width: 500px;
+    position: relative !important;
+    border: 3px solid #39c896;
+}

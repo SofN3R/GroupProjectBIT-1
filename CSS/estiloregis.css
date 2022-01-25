@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: aquamarine;
+}
+
+
+
+#formulario {
+    width: 36%;
+    height: 600px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgba(177, 75, 224, 0.774);
+}
+
+#formulario form{
+    margin-top: 5px;
+}
+
+
+#formulario form input{
+    display: block;
+    margin-left: 20%;
+    width: 60% !important;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+#formulario form input,
+#formulario form label{
+    display: block;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+#formulario form label{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+#formulario form input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#formulario form input[type="submit"],
+#formulario form input[type="button"],
+#formulario form button{
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(21, 21, 22);
+    color: white;
+    width: 160px !important;
+    margin-left: 150px;
+    margin-top: 30px !important;
+    border-radius: 15px;
+}
+
+
+#regis-nom{
+    text-align: center;
+    
+}
+#regis-nom h2{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+#image{
+    position: absolute;
+}
+
+#imagen-fondo{
+    margin-top: 46px;
+    margin-left: 220px;
+    position: absolute;
+    width: 800px;
+    height: 640px;
+}
+
+
+/* iniciar sesion estilos */
+#formulario2 {
+    width: 36%;
+    height: 350px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 15%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgba(177, 75, 224, 0.774);
+}
+
+
+
+#formulario2 form input{
+    display: block;
+    margin-left: 20%;
+    width: 60% !important;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+#formulario2 form input,
+#formulario2 form label{
+    display: block;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+#formulario2 form label{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+#formulario2 form input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#formulario2 form input[type="submit"],
+#formulario2 form input[type="button"],
+#formulario2 form button{
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(21, 21, 22);
+    color: white;
+    width: 160px !important;
+    margin-left: 150px;
+    margin-top: 30px !important;
+    border-radius: 15px;
+}
+
+.texto{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.texto2{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline !important;
+}
