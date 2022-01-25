@@ -6,8 +6,7 @@
 
 
 #nav-lateral{
-	position: absolute;
-    
+	position: absolute; 
 	width: 17%;
     height: 220%;
 	/* background-color: #00a16bd0; */
@@ -34,8 +33,6 @@
 }
 
 
-
-
 #logo-img{
     margin-left: -60px;
     width: 35%;
@@ -51,7 +48,7 @@
 }
 h1{
     font-weight: bolder;
-    color: #0371c0);
+    color: (#0371c0);
 }
 
 .box{
@@ -60,19 +57,19 @@ h1{
     background-color: rgba(19, 146, 104, 0);
     height: 100%;
     text-align: center;
-    min-height: 935px;
     margin-left: 220px;
+    min-height: 935px;
     padding:22% 0%;
     font-weight: bold;
-    color: black;
-}    
+    color: rgb(92, 60, 60);
+}   
 
 .imagen {
     width: 1800px;
     height: 100%;
     position: absolute;
     overflow: hidden;
-    margin-left: 350px;
+    margin-left: 255px;
 }
 
 footer{
