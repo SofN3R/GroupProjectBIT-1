@@ -7,13 +7,14 @@
     margin: 0 auto;
     background-image: url(https://cdn.autumna.co.uk/prod/media/filer_public_thumbnails/filer_public/ac/be/acbeb643-7440-4883-acb1-311effa00d31/autumna-best-care-home-near-here.jpg__1520x0_q50_crop_progressive_subsampling-2.jpg);
     text-align: center;
-    position: relative;
+    /* position: relative; */
     bottom: -300px;
     right: -100px;
     border-radius: 60px;
     color: rgb(0, 0, 0);
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
+    border-top: 100%;
 }
 
 .about::before,
@@ -29,6 +30,12 @@
 .container_about{
     /* background-color: rgba(9, 170, 219, 0.445); */
     border-radius: 60px
+
+}
+.title_about{
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 3%;
 
 
 
