@@ -1495,7 +1495,7 @@ select.form-control:not([size]):not([multiple]){
 
 
 .box form{
-
+	padding-top: 10px;
 	margin-left: 5%;
 	width: 1200px;
 	font-family: 'Roboto', sans-serif;
