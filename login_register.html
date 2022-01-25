@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="IMG/favicon2.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilonav.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Sección Informativa</title>
+</head>
+<body>
+    <header class="top-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img id="logo-img" src="img/logobit2.png" alt="image"></a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link" href="infoseccion.html">Inicio</a></li>
+                        <li><a class="nav-link" href="infoseccion.html">Acerca de Nosotros</a></li>
+                        <li><a class="nav-link" href="#services">Especialistas</a></li>
+                        <li><a class="nav-link" href="#appointment">Instalaciones</a></li>
+                        <li><a class="nav-link" href="login_register.html">Iniciar Sesión</a></li>
+    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+ 
+
+
+ 
+
+  
+    <link rel="stylesheet" href="css/estilo.css">    <div id="menu" class="">
+        <ul> 
+            <li><a href="#" class="active">Iniciar sesión</a></li>
+            <li><a href="#">Registrarse</a></li>
+        </ul>
+    </div> 
+    <div id="formularios" >
+        <form action=""  >
+             <p>Email:</p>
+            <div class="f-container">
+                <i class="fa fa-envelope-o fa-lg"></i>
+                <input type="text" class="field" placeholder="user@example.com"> <br/>
+            </div>
+            
+
+            <p>Contraseña: </p>
+        <div class="f-container">
+            <i class="fa fa-lock fa-lg"></i>            
+            <input type="password" class="field" placeholder="***********"><br/>
+        </div>
+            <p class="center">
+                <input type="submit" value="Iniciar sesión" class="btn btn-blue center"> 
+            </p>
+
+        </form>
+       
+
+        <form action="" id="form-register" >
+
+                 
+                  
+                    <div class="f-container " >
+                        <p>Nombre completo:</p>
+                        <i class="fa fa-user-circle fa-lg"></i>
+                         <input type="text" class="field"> <br/>
+                    </div>
+                    
+                    
+               
+                 
+             
+            
+              
+            
+             
+
+               <p>Email:</p>
+               <div class="f-container">
+                   <i class="fa fa-envelope-o fa-lg"></i>
+                   <input type="text" class="field"> <br/>
+               </div>
+            	  
+               
+                   
+                    <div class="f-container">
+                        <p>Contraseña: </p>
+                        <i class="fa fa-lock fa-lg"></i>            
+                        <input type="password" class="field"><br/>
+                    </div>
+                             
+                     <p>Especialidad: </p>
+                         <div class="sidebar-box">
+                          <select class="styled-select">
+                         <option>Selecciona una opción</option>
+                         <option>Psicologia</option>
+                         <option>Medicina</option>
+                         </select></div>
+            
+                  
+
+               <p class="center">
+                   <input type="submit" value="Registrar" class="btn btn-blue center"> 
+               </p>
+   
+           </form>
+   
+
+    </div>
+
+    <script src=" https://code.jquery.com/jquery-3.2.1.min.js"></script>    
+    <script src=""> </script>
+
+    <script src="https://use.fontawesome.com/a366ac0aa5.js"></script>
+</body>
+</html>
+<script>
+     $(function(){
+            $("#menu li").on("click", function(){
+                var i = $(this).index();
+                $("#formularios form").hide();
+                $("#formularios form").eq(i).show();
+                $("#menu li a").removeClass("active");
+                $(this).find("a").addClass("active");
+            });
+        });
+</script>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer class="footer-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="footer-company-name">Proyecto Salud<a href="#">Health Lab</a> Design By :  Raquel Sofía Neira <a href="https://html.design/">html design</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
+ 

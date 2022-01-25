@@ -1,2 +1,35 @@
 
 /** ADD YOUR AWESOME CODES HERE **/
+
+.about {
+    width: 55%;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url(https://cdn.autumna.co.uk/prod/media/filer_public_thumbnails/filer_public/ac/be/acbeb643-7440-4883-acb1-311effa00d31/autumna-best-care-home-near-here.jpg__1520x0_q50_crop_progressive_subsampling-2.jpg);
+    text-align: center;
+    position: relative;
+    bottom: -300px;
+    right: -100px;
+    border-radius: 60px;
+    color: rgb(0, 0, 0);
+    font-family: 'Catamaran', sans-serif;
+    font-size: 17px;
+}
+
+.about::before,
+.about::after {
+    position: absolute;
+    content: '';
+    z-index: -1;
+}
+
+.about:hover {
+    box-shadow: inset -30.5em 0 0 0 rgba(9, 170, 219, 0.445), inset 30.5em 0 0 0 rgba(9, 170, 219, 0.445);
+}
+.container_about{
+    /* background-color: rgba(9, 170, 219, 0.445); */
+    border-radius: 60px
+
+
+
+}
